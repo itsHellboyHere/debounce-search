@@ -1,8 +1,10 @@
+import DebounceSearch from "./DebounceSearch"
 import Search from "./Search"
 
 const App = () => {
   return (
-    <Search />
+    // <Search />
+    <DebounceSearch />
   )
 }
 export default App
